@@ -1,0 +1,62 @@
+body {
+    background-color: tan;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+background-color: blue;
+}
+
+
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+.me { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    height: 100%;
+    border-right:5px orange solid ;
+    flex: 1 1 20%;
+    color: red;
+    justify-content: flex-end;
+}
+
+
+.section-container {
+    flex: 3 3 80%;
+    background-color: tan;
+    justify-content: flex-end;
+    margin-left: 4%;
+}
+
+#surf-image {
+    background-image: url("./animals_hero_snakes.jpg");
+    height: 500px;
+    width: 500px    ;
+
+}
+
+h2{
+    margin-right: 10px;
+}
