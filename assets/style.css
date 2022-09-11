@@ -6,7 +6,11 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-background-color: blue;
+    background-image: url(./HeadPic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain ;
+    background-color: lightgreen;
 }
 
 
@@ -15,10 +19,11 @@ ul {
     display: flex;
 }
 
-ul li {
+ ul li {
     list-style-type: none;
     justify-content: space-around;
     margin-left: 25px;
+    color: black;
 }
 .me { 
     display: flex;
@@ -42,21 +47,60 @@ section {
     justify-content: flex-end;
 }
 
+.work-container {
+    display: flex;
+    height: 100%;
+    border-right:5px orange solid ;
+    flex: 1 1 20%;
+    color: red;
+    justify-content: flex-end;
+}
+
+#section-container {
+    position: relative;
+    flex: 1 1 80%;
+    background-image: url(./download.jpg); 
+    margin-left: 4%;
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .section-container {
-    flex: 3 3 80%;
-    background-color: tan;
+    position: relative;
+    flex: 6 4 80%;
     justify-content: flex-end;
     margin-left: 4%;
+    background-repeat: no-repeat;
+ 
 }
-
-#surf-image {
-    background-image: url("./animals_hero_snakes.jpg");
-    height: 500px;
-    width: 500px    ;
-
+.container {
+    position:absolute;
+    text-align: center;
+    color: white;
 }
+.Top-right {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    border-style:dashed
+}
+/* #surf-image {
+    background-image: url("./World-Snake-Day-640x514.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 650px;
+    object-fit: center;
+} */
 
-h2{
+/* h2{
+    opacity: 1;
     margin-right: 10px;
-}
+} */
+/* @media screen and (min-width:400px) {
+    body 
+    
+} */
