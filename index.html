@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,51 +8,66 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Crispiest Portfolio😅 </title>
 </head>
+
 <body>
     <header>
-        <span class="me"><h1>Richard</h1></span>
+        <span class="me">
+            <h1>Richard</h1>
+        </span>
+        <img id="bighead" src="./assets/HeadPic.jpg" alt="HeadPic">
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Work</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="header-container">
-            <h2>About me</h2>
+    <section class="meabout">
+        <div class="header-container" id="aboutme">
+            <aside>About me</aside>
         </div>
-        <div class="section-container"> 
-        <div>
-            <!-- <img src="./assets/download.jpg" alt="frog"> -->
-                <p>This page shows a little about what I can do with the knowledge of coding.</p>
-                <br>
+        <div class="section-container">
+            <div>
+                <p>This page shows a little about what I can do with the knowledge of coding.(which isnt that much)</p>
                 <p>This task was admittadly hard to complete. The process was hard for me to initially understand.</p>
-        </div>            
-
-</div>
-    </section>
-
-    <section>
-        <div class="work-container">
-            <h2>Work</h2>
-        </div>
-        <section id="section-container">
-<section>
-                <div class="Top right">This should be in the snake box</div>
-
-</section>           
-</section>
+            </div>
         </div>
     </section>
-    <footer>
-        <h2>Contact</h2>
-        <ul>
-            <li>Github</li>
-            <li>Gmail</li>
-            <li>Phone:612-735-9159</li>
-        </ul>
+
+        <section class="portfolio" id="work">
+            <div id="aside">Work</div>
+            <div class="portfolio-box">
+            <div class="big-image">
+                <div>Turtle</div>
+            </div>
+            <div class="small-image">
+                <div>Turtle</div>
+            </div>
+            <div class="small-image">
+                <div>Turtle</div>
+            </div>
+            <div class="small-image">
+                <div>Turtle</div>
+            </div>
+            <div class="small-image">
+                <div>Turtle</div>
+            </div>
+            </div>
+       </section>
+    </section>
+
+
+    <footer id="contact">
+        <div>
+            <h2>Contact</h2>
+            <ul>
+                <li>Github</li>
+                <li>Gmail</li>
+                <li>Phone: 612-735-9159</li>
+            </ul>
+        </div>
     </footer>
 </body>
+
 </html>

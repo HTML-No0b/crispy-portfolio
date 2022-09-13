@@ -1,20 +1,28 @@
 body {
-    background-color: tan;
+   background-color: tan;
+    
 }
-
+#space {
+    height: 40px;
+    width: 3em;
+}
 
 header {
     display: flex;
     justify-content: space-around;
-    background-image: url(./HeadPic.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:contain ;
-    background-color: lightgreen;
+    background-position:auto;
+    background-size: contain ;
+    background-image: url(./space.jpg);
+    color: red;
+}
+#bighead {
+    height: 100px;
+    width: 118px;
 }
 
-
-
+.meabout {
+    display: flex;
+}
 ul {
     display: flex;
 }
@@ -23,49 +31,65 @@ ul {
     list-style-type: none;
     justify-content: space-around;
     margin-left: 25px;
-    color: black;
+    color:red;
 }
 .me { 
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    color: red;
 
 }
 
-section {
+/* section {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-}
-
+} */
+a:hover {
+    color: red;
+  }
 .header-container {
     display: flex;
     height: 100%;
     border-right:5px orange solid ;
-    flex: 1 1 20%;
+    flex: 1 1 3%;
     color: red;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .work-container {
     display: flex;
     height: 100%;
     border-right:5px orange solid ;
-    flex: 1 1 20%;
+    flex: 1 1 6%;
     color: red;
-    justify-content: flex-end;
+    justify-content: flex-start;
+}
+img:hover {
+    color: black ;
 }
 
-#section-container {
-    position: relative;
-    flex: 1 1 80%;
-    background-image: url(./download.jpg); 
-    margin-left: 4%;
-    height: 600px;
-    width: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.big-image {
+    display: flex;
+    flex-wrap: wrap;
 }
+ .portfolio-box {
+    display:flex;
+    flex-wrap:wrap;
+    
+ }
+.small-image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 25%;
+    border: 10px red solid;
+}
+
+
+
+
 
 .section-container {
     position: relative;
@@ -75,32 +99,87 @@ section {
     background-repeat: no-repeat;
  
 }
+
+#box1-container {
+    position: relative;
+    margin: 0px 0px 0px 50px;
+    flex: 1 1 80%;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-color: blue;
+ 
+}
 .container {
     position:absolute;
     text-align: center;
     color: white;
 }
-.Top-right {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
-    border-style:dashed
-}
-/* #surf-image {
-    background-image: url("./World-Snake-Day-640x514.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 650px;
-    width: 650px;
-    object-fit: center;
-} */
 
-/* h2{
-    opacity: 1;
-    margin-right: 10px;
-} */
-/* @media screen and (min-width:400px) {
-    body 
+.boxes {
+    display: flex;
+}
+
+#text1 {
+    display: flex;
+    height: 55px;
+    width: 193px;
+    border: 12px solid lime;
+    background-color: aqua;
+}
+
+#text2 {
+    display: flex;
+    flex-direction: column;
+    text-decoration:solid green;
     
-} */
+}
+
+#text3 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display:flex;
+}
+.portfolio {
+    display: flex;
+}
+
+#aside {
+    width: 25%;
+}
+ .portfolio-box {
+    width:75%;
+    display: flex;
+ }
+ .big-image {
+width: 100%;
+height: 200px;
+background-image: url(./space.jpg);
+ }
+ 
+ .small-image {
+    width: 50%;
+    height: 100px;
+    background-image: url(./space.jpg);
+ }
+@media screen and (min-width:400px) {
+    body {
+        flex-wrap: wrap;
+    }
+    .header-container{
+        flex-wrap: wrap;
+    }
+    
+}@media screen and (min-width:780px) {
+    body {
+        flex-wrap: wrap;
+    }
+
+    .header-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+}
