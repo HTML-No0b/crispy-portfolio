@@ -11,4 +11,5 @@
     - Click on the nav bar, top right to link to sections
     - Clicking on the projects will bring you to my work
     - When you hover over the nav bar they highlight
+    - https://html-no0b.github.io/crispy-portfolio/
     
