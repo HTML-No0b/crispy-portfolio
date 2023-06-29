@@ -1,0 +1,14 @@
+{
+  "name": "crispy-portfolio",
+  "version": "1.0.0",
+  "description": "## Portfolio About My Web Development     ⁃ What motiviated me to create this project was making my own portfolio literally from scratch, then being     able to see my work show while also showing off my skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

@@ -86,9 +86,12 @@ nav a:hover {
     } */
 
 #box1 {
-    border: 4px solid green;
- 
+    flex-wrap: wrap;
+    display: inline-grid;
+    justify-items: center;
 }
+ 
+
 .section-container {
     position: relative;
     flex: 6 4 80%;
@@ -151,7 +154,7 @@ footer {
     width: 8%;
 }
  .portfolio-box {
-    width:75%;
+    width:25%;
     /* display: flex; */
     justify-content:space-between ;
     flex-direction: column;
@@ -164,7 +167,7 @@ margin-bottom: 20px;
  }
  
  .small-image {
-    width: 46%;
+    width:245%;
     height: 100px;
     /* background-image: url(./space.jpg); */
     border: 4px green solid;
